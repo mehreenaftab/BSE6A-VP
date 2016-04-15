@@ -1,0 +1,38 @@
+        static void Main(string[] args)
+        {
+            int a = 10;
+            int b = 2;
+            square(a,b);
+
+        }
+
+        public static void square(int a, int b)
+        {
+            int c = a *a;
+            int d = b * b;
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+        }
+
+
+By user values
+
+ static void Main(string[] args)
+        {
+            int a;
+            int b;
+            Console.WriteLine("Enter no 1");
+            a = Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Please Enter no 2");
+            b = Convert.ToInt32(Console.ReadLine());
+            square(a,b);
+        }
+
+        public static void square(int a, int b)
+        {
+            int c = a *a;
+            int d = b * b;
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+        }
